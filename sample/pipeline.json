@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    { "id": "extract", "label": "Extract source data" },
+    { "id": "clean", "label": "Clean records", "depends_on": ["extract"] },
+    { "id": "enrich", "label": "Enrich records", "depends_on": ["clean"] },
+    { "id": "report", "label": "Build report", "depends_on": ["enrich"] },
+    { "id": "archive", "label": "Archive clean data", "depends_on": ["clean"] }
+  ]
+}

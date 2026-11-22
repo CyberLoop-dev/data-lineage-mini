@@ -1,0 +1,8 @@
+{
+  "name": "data-lineage-mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate and validate small data lineage graphs",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" }
+}
